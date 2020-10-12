@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/raslb/CLionProjects/ITMO/AlgorithmsAndStructures/lab2/Aquicksort/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+set
+-
+chrono
+-
+
