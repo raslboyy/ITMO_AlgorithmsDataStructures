@@ -1,3 +1,0 @@
-C:/Users/raslb/CLionProjects/ITMO/AlgorithmsAndStructures/lab3/C/cmake-build-debug/CMakeFiles/C.dir
-C:/Users/raslb/CLionProjects/ITMO/AlgorithmsAndStructures/lab3/C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/raslb/CLionProjects/ITMO/AlgorithmsAndStructures/lab3/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
