@@ -77,7 +77,8 @@ int main()
     {
         double m = (d + u) / 2;
         double code = check(A, m, n);
-        if (code != -1){
+        if (code != -1)
+        {
             u = m;
             ans = code;
         }
