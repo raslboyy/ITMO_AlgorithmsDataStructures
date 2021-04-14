@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/raslb/ITMO_Projects/ITMO_AlgorithmsDataStructures/lab1.06/D_chains/main.cpp
+vector
+-
+list
+-
+iostream
+-
+

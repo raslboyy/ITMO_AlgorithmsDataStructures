@@ -1,0 +1,4 @@
+C:\Users\raslb\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\raslb\ITMO_Projects\ITMO_AlgorithmsDataStructures\lab1.07\E
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/raslb/ITMO_Projects/ITMO_AlgorithmsDataStructures/lab1.07/E/cmake-build-debug
