@@ -1,24 +1,37 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-const int MOD = 1e9;
+const int N = 3;
+const int M = 3;
 
-int main() {
+void foo(int (*a)[M], int n, int m) {
+    int maximum = a[0][0];
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < m; j++)
+            if (a[i][j] > maximum)
+                maximum = a[i][j];
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < m; j++)
+            if (a[i][j] == maximum)
+                a[i][j] = 0;
+}
 
-  int n;
-  cin >> n;
-  vector<int> a(n);
-  for (int i = 0; i < n; i++)
-    cin >> a[i];
+int main(){
 
-  vector<vector<int>> dp(n, vector<int>(n));
-  for (int i = 0; i < n; i++)
-    dp[i][i] = 1;
+    int a[N][M];
 
-  for (int len = 2; len <= n; len++)
-    for (int begin = 0; begin <= n - len; begin++)
+    for (int i = 0; i < N; i++)
+        for (int j = 0; j < M; j++)
+            cin >> a[i][j];
 
-  return 0;
+    foo(a, N, M);
+
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < M; j++)
+            cout << a[i][j] << ' ';
+        cout << endl;
+    }
+
+    return 0;
 }

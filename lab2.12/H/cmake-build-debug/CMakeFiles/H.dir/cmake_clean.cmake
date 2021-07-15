@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/H.dir/main.cpp.obj"
-  "H.exe"
-  "H.exe.manifest"
+  "CMakeFiles/H.dir/main.cpp.o"
+  "H"
   "H.pdb"
-  "libH.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

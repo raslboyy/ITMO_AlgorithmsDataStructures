@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rasl/ITMO_Projects/ITMO_AlgorithmsDataStructures/lab2.12/F/main.cpp
+iostream
+-
+vector
+-
+

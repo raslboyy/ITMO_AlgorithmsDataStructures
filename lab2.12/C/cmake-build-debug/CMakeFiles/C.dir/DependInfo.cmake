@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/raslb/ITMO_Projects/ITMO_AlgorithmsDataStructures/lab2.12/C/main.cpp" "C:/Users/raslb/ITMO_Projects/ITMO_AlgorithmsDataStructures/lab2.12/C/cmake-build-debug/CMakeFiles/C.dir/main.cpp.obj"
+  "/home/rasl/ITMO_Projects/ITMO_AlgorithmsDataStructures/lab2.12/C/main.cpp" "/home/rasl/ITMO_Projects/ITMO_AlgorithmsDataStructures/lab2.12/C/cmake-build-debug/CMakeFiles/C.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
